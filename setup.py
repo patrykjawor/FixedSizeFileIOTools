@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='FixedSizeFileIOTools',
-    version='1.0',
+    version='1.01',
     packages=find_packages(),
     description='Python library for handling fixed sized files, with interactive CLI',
     long_description=pathlib.Path("README.md").read_text(),
