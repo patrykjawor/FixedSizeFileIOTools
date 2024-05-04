@@ -316,7 +316,7 @@ class FixedFileHandler:
 
                 transaction.counter = str(1).zfill(6) # Because we start from 1 transaction
                 self.records[len(self.records) + 1] = transaction # We add transaction
-                self.logger.info("Transaction updated.")
+                self.logger.info("New transaction added.")
 
                 #Now we need to add footer
                 footer_data = Footer(
